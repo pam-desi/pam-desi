@@ -16,19 +16,17 @@
       </feMerge>
     </filter>
 
-    <!-- grid pattern -->
     <pattern id="grid2" width="34" height="34" patternUnits="userSpaceOnUse">
       <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
     </pattern>
 
-    <!-- vignette -->
     <radialGradient id="vignette2" cx="50%" cy="40%" r="80%">
       <stop offset="0" stop-color="#000000" stop-opacity="0"/>
       <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
     </radialGradient>
 
     <style>
-      .title { font: 800 30px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 0.5px; }
+      .title { font: 800 28px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 1px; }
       .mini  { font: 700 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
     </style>
   </defs>
@@ -51,7 +49,7 @@
     </rect>
   </g>
 
-  <!-- neon lines -->
+  <!-- neon line -->
   <g stroke="#E9D5FF" stroke-opacity="0.16" stroke-width="2" fill="none">
     <path d="M-80 110 C 260 50, 420 150, 660 85 S 980 55, 1280 105">
       <animate attributeName="stroke-opacity" values="0.10;0.22;0.10" dur="4.8s" repeatCount="indefinite"/>
@@ -60,18 +58,18 @@
 
   <!-- title -->
   <g filter="url(#glow2)">
-    <text x="600" y="78" text-anchor="middle" fill="#FFFFFF" class="title">
-      CONSTRUINDO COM PROPÓSITO
+    <text x="600" y="80" text-anchor="middle" fill="#FFFFFF" class="title">
+      DESIGN EM MOVIMENTO • CÓDIGO COM INTENÇÃO
     </text>
   </g>
 
-  <!-- HUD details -->
+  <!-- HUD details (sua identidade) -->
   <g class="mini" fill="#FFFFFF" opacity="0.55">
     <text x="50" y="34">SYSTEM: PAMMYU_UI</text>
-    <text x="50" y="54">MODE: CYBER_FOOTER</text>
+    <text x="50" y="54">MODE: FRONTEND • UI/UX</text>
 
-    <text x="1150" y="34" text-anchor="end">STATUS: ACTIVE</text>
-    <text x="1150" y="54" text-anchor="end">THEME: VIOLET_NEON</text>
+    <text x="1150" y="34" text-anchor="end">STACK: REACT • TS</text>
+    <text x="1150" y="54" text-anchor="end">BASE: FULL STACK</text>
   </g>
 
   <!-- particles -->
