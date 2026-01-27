@@ -66,14 +66,124 @@ const pamela = {
 
 <hr/>
 
+<h2>🚀 Projetos em destaque</h2>
+
+<p>
+  Alguns projetos que representam meu foco em interfaces bem construídas, consumo de APIs e organização de código.
+</p>
+
+<table width="100%" cellspacing="14">
+  <tr>
+    <!-- VitaCare -->
+    <td
+      width="33%"
+      valign="top"
+      style="
+        background: rgba(124, 58, 237, 0.14);
+        border: 1px solid rgba(168, 85, 247, 0.35);
+        border-radius: 18px;
+        padding: 18px;
+        box-shadow: 0 0 22px rgba(168, 85, 247, 0.12);
+      "
+    >
+      <h3 style="margin-top: 0;">💊 VitaCare</h3>
+<p style="margin: 8px 0 12px;">
+    Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
+</p>
+
+<p style="margin: 0 0 14px;">
+    <b>Stack:</b> React • TypeScript • Axios • TailwindCSS
+</p>
+
+<a
+href="https://github.com/pammyu/projeto_final_bloco_03"
+target="_blank"
+rel="noreferrer"
+style="
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    background: rgba(11, 18, 32, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;
+    "
+    >
+    🔗 Repositório
+</a>
+    </td>
+
+<!-- Blog Pessoal -->
+<td width="33%" valign="top" style=" background: rgba(124, 58, 237, 0.14); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 18px; padding: 18px box-shadow: 0 0 22px rgba(168, 85, 247, 0.12);"
+>
+    <h3 style="margin-top: 0;">📝 Blog Pessoal</h3>
+<p style="margin: 8px 0 12px;">
+    Projeto Full Stack com autenticação e CRUD completo. Me deu base forte de integração front + backend e organização em camadas.
+</p>
+
+<p style="margin: 0 0 14px;">
+    <b>Stack:</b> React • TypeScript • NestJS • MySQL
+</p>
+
+<a href="https://github.com/pammyu/blogpessoal_react" target="_blank" rel="noreferrer" style=" display: inline-block; padding: 10px 14px; border-radius: 12px;
+          text-decoration: none;
+          font-weight: 700;
+          background: rgba(11, 18, 32, 0.75);
+          border: 1px solid rgba(255, 255, 255, 0.12);
+          color: #fff;
+        "
+      >
+        🔗 Repositório
+      </a>
+    </td>
+
+<!-- Talent Flow -->
+<td width="33%" valign="top" style=" background: rgba(124, 58, 237, 0.14); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 18px; padding: 18px box-shadow: 0 0 22px rgba(168, 85, 247, 0.12); ">
+    <h3 style="margin-top: 0;">✨ Talent Flow</h3>
+
+<p style="margin: 8px 0 12px;">
+    Plataforma para gestão de talentos com UI moderna e experiência fluida. Meu foco foi front-end: layout, responsividade e componentes.
+</p>
+
+<p style="margin: 0 0 14px;">
+    <b>Stack:</b> React • TailwindCSS • UI/UX
+</p>
+
+<a href="https://github.com/Grupo-02-Turma-JavaScript-10/Rh_frontEnd" target="_blank" rel="noreferrer" style="
+    display: inline-block;
+    padding: 10px 14px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: 700;
+    background: rgba(11, 18, 32, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    color: #fff;">
+    🔗 Repositório
+</a>
+    </td>
+  </tr>
+</table>
+
+
+
+<br/>
+
+
+<hr/>
+
 <h2>🧩 Stack tecnológica</h2>
 
 <div align="center">
   <h4>💻 Linguagens</h4>
-  <img src="https://skillicons.dev/icons?i=ts,js" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=ts,js" />
+  </p>
 
   <h4>🧱 Backend & Arquitetura</h4>
-  <img src="https://skillicons.dev/icons?i=nodejs,nestjs" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=nodejs,nestjs" />
+  </p>
 
   <p align="center">
     <img height="46" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" />
@@ -82,14 +192,28 @@ const pamela = {
   </p>
 
   <h4>🎨 Frontend & Design</h4>
-  <img src="https://skillicons.dev/icons?i=react,tailwind,vite,figma" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=react,tailwind,vite,figma" />
+  </p>
 
   <h4>🗄️ Banco de dados</h4>
-  <img src="https://skillicons.dev/icons?i=mysql" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=mysql" />
+  </p>
 
   <h4>🧰 Ferramentas</h4>
-  <img src="https://skillicons.dev/icons?i=git,github" />
+  <p align="center">
+    <img src="https://skillicons.dev/icons?i=git,github" />
+  </p>
 </div>
+
+<hr/>
+
+<h2>🗺️ Mini Roadmap</h2>
+
+<p align="center">
+  <img src="./assets/roadmap-cyber.svg" alt="Roadmap Cyber" />
+</p>
 
 <hr/>
 
