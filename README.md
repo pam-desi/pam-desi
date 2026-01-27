@@ -85,7 +85,8 @@ const pamela = {
   <h3>💊 VitaCare</h3>
   <p>
     Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
-  </p>
+  </p> 
+  <br/> 
 
   <p><b>Stack:</b></p>
   <p>
@@ -94,11 +95,13 @@ const pamela = {
     <img src="https://img.shields.io/badge/Axios-0B1220?style=for-the-badge&logo=axios&logoColor=A855F7"/>
     <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
   </p>
+  <br/> 
+  <br/> 
 
   <a href="https://github.com/pammyu/projeto_final_bloco_03">
     <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
   </a>
-  <br/>
+  <br/> 
   <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
 </td>
 
