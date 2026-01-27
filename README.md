@@ -108,12 +108,6 @@ const pamela = {
   />
 </p>
 
-<!-- STREAK AUTOMÁTICO (SVG GERADO PELO WORKFLOW) -->
-<p align="center">
-  <img src="https://github.com/pammyu/pammyu/blob/main/assets/streak-cyber.svg?raw=1&v=2" alt="Cyber Streak" />
-
-</p>
-
 <hr/>
 
 <h2>📈 Atividade & gráficos</h2>
