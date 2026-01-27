@@ -98,7 +98,7 @@ const pamela = {
   <a href="https://github.com/pammyu/projeto_final_bloco_03">
     <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
   </a>
-  <br/><br/>
+  <br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
 </td>
 
@@ -187,17 +187,6 @@ const pamela = {
     <img src="https://skillicons.dev/icons?i=git,github" />
   </p>
 </div>
-
-<hr/>
-
-<h2>🗺️ Mini Roadmap</h2>
-
-<p align="center">
-  <img
-    src="https://github.com/pammyu/pammyu/blob/main/assets/roadmap-cyber.svg?raw=1"
-    alt="Roadmap Cyber"
-  />
-</p>
 
 <hr/>
 
