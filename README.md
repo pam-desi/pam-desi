@@ -110,10 +110,8 @@ const pamela = {
 
 <!-- STREAK AUTOMÁTICO (SVG GERADO PELO WORKFLOW) -->
 <p align="center">
-  <img
-    src="./assets/streak-cyber-template.svg"
-    alt="Cyber Streak"
-  />
+  <img src="https://github.com/pammyu/pammyu/blob/main/assets/streak-cyber.svg?raw=1&v=2" alt="Cyber Streak" />
+
 </p>
 
 <hr/>
