@@ -114,7 +114,7 @@ const pamela = {
 
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=pammyu&theme=github-dark&hide_border=true"
+    src="https://streak-stats.demolab.com?user=pammyu&theme=github-dark&hide_border=true&v=2"
     alt="GitHub Streak"
   />
 </p>
