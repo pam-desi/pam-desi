@@ -66,109 +66,90 @@ const pamela = {
 
 <hr/>
 
-<h2>🚀 Projetos em destaque</h2>
+<p align="center">
+  <img
+    src="./assets/projetos-titulo.svg"
+    alt="Projetos em Destaque"
+  />
+</p>
 
 <p>
   Alguns projetos que representam meu foco em interfaces bem construídas, consumo de APIs e organização de código.
 </p>
 
-<table width="100%" cellspacing="14">
+<table width="100%" cellspacing="12" cellpadding="0">
   <tr>
-    <!-- VitaCare -->
-    <td
-      width="33%"
-      valign="top"
-      style="
-        background: rgba(124, 58, 237, 0.14);
-        border: 1px solid rgba(168, 85, 247, 0.35);
-        border-radius: 18px;
-        padding: 18px;
-        box-shadow: 0 0 22px rgba(168, 85, 247, 0.12);
-      "
-    >
-      <h3 style="margin-top: 0;">💊 VitaCare</h3>
-<p style="margin: 8px 0 12px;">
+    <td width="33%" valign="top">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=header" width="100%" />
+
+  <h3>💊 VitaCare</h3>
+  <p>
     Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
-</p>
+  </p>
 
-<p style="margin: 0 0 14px;">
-    <b>Stack:</b> React • TypeScript • Axios • TailwindCSS
-</p>
+  <p><b>Stack:</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
+    <img src="https://img.shields.io/badge/TypeScript-0B1220?style=for-the-badge&logo=typescript&logoColor=60A5FA"/>
+    <img src="https://img.shields.io/badge/Axios-0B1220?style=for-the-badge&logo=axios&logoColor=A855F7"/>
+    <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
+  </p>
 
-<a
-href="https://github.com/pammyu/projeto_final_bloco_03"
-target="_blank"
-rel="noreferrer"
-style="
-    display: inline-block;
-    padding: 10px 14px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 700;
-    background: rgba(11, 18, 32, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: #fff;
-    "
-    >
-    🔗 Repositório
-</a>
-    </td>
+  <a href="https://github.com/pammyu/projeto_final_bloco_03">
+    <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+  </a>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
+</td>
 
-<!-- Blog Pessoal -->
-<td width="33%" valign="top" style=" background: rgba(124, 58, 237, 0.14); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 18px; padding: 18px box-shadow: 0 0 22px rgba(168, 85, 247, 0.12);"
->
-    <h3 style="margin-top: 0;">📝 Blog Pessoal</h3>
-<p style="margin: 8px 0 12px;">
+<td width="33%" valign="top">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=header" width="100%" />
+
+  <h3>📝 Blog Pessoal</h3>
+  <p>
     Projeto Full Stack com autenticação e CRUD completo. Me deu base forte de integração front + backend e organização em camadas.
-</p>
+  </p>
 
-<p style="margin: 0 0 14px;">
-    <b>Stack:</b> React • TypeScript • NestJS • MySQL
-</p>
+  <p><b>Stack:</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
+    <img src="https://img.shields.io/badge/TypeScript-0B1220?style=for-the-badge&logo=typescript&logoColor=60A5FA"/>
+    <img src="https://img.shields.io/badge/NestJS-0B1220?style=for-the-badge&logo=nestjs&logoColor=E11D48"/>
+    <img src="https://img.shields.io/badge/MySQL-0B1220?style=for-the-badge&logo=mysql&logoColor=38BDF8"/>
+  </p>
 
-<a href="https://github.com/pammyu/blogpessoal_react" target="_blank" rel="noreferrer" style=" display: inline-block; padding: 10px 14px; border-radius: 12px;
-          text-decoration: none;
-          font-weight: 700;
-          background: rgba(11, 18, 32, 0.75);
-          border: 1px solid rgba(255, 255, 255, 0.12);
-          color: #fff;
-        "
-      >
-        🔗 Repositório
-      </a>
-    </td>
+  <a href="https://github.com/pammyu/blogpessoal_react">
+    <img src="https://img.shields.io/badge/🔗%20Repositório-A855F7?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+  </a>
 
-<!-- Talent Flow -->
-<td width="33%" valign="top" style=" background: rgba(124, 58, 237, 0.14); border: 1px solid rgba(168, 85, 247, 0.35); border-radius: 18px; padding: 18px box-shadow: 0 0 22px rgba(168, 85, 247, 0.12); ">
-    <h3 style="margin-top: 0;">✨ Talent Flow</h3>
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=footer" width="100%" />
+</td>
 
-<p style="margin: 8px 0 12px;">
+  <td width="33%" valign="top">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=header" width="100%" />
+
+  <h3>✨ Talent Flow</h3>
+  <p>
     Plataforma para gestão de talentos com UI moderna e experiência fluida. Meu foco foi front-end: layout, responsividade e componentes.
-</p>
+  </p>
 
-<p style="margin: 0 0 14px;">
-    <b>Stack:</b> React • TailwindCSS • UI/UX
-</p>
+  <p><b>Stack:</b></p>
+  <p>
+    <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
+    <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
+    <img src="https://img.shields.io/badge/UI%2FUX-0B1220?style=for-the-badge&logo=figma&logoColor=F472B6"/>
+  </p>
 
-<a href="https://github.com/Grupo-02-Turma-JavaScript-10/Rh_frontEnd" target="_blank" rel="noreferrer" style="
-    display: inline-block;
-    padding: 10px 14px;
-    border-radius: 12px;
-    text-decoration: none;
-    font-weight: 700;
-    background: rgba(11, 18, 32, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.12);
-    color: #fff;">
-    🔗 Repositório
-</a>
-    </td>
+  <a href="https://github.com/Grupo-02-Turma-JavaScript-10/Rh_frontEnd">
+    <img src="https://img.shields.io/badge/🔗%20Repositório-C026D3?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+  </a>
+
+  <br/><br/>
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=footer" width="100%" />
+</td>
   </tr>
 </table>
-
-
-
-<br/>
-
 
 <hr/>
 
@@ -212,7 +193,10 @@ style="
 <h2>🗺️ Mini Roadmap</h2>
 
 <p align="center">
-  <img src="./assets/roadmap-cyber.svg" alt="Roadmap Cyber" />
+  <img
+    src="https://github.com/pammyu/pammyu/blob/main/assets/roadmap-cyber.svg?raw=1"
+    alt="Roadmap Cyber"
+  />
 </p>
 
 <hr/>

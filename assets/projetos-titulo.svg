@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="140" viewBox="0 0 1200 140">
+  <defs>
+    <!-- Fundo gradiente violeta (igual ao seu) -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+      <animate attributeName="x1" values="0;0.15;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0.85;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M 34 0 L 0 0 0 34" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <!-- Vinheta -->
+    <radialGradient id="vignette" cx="50%" cy="45%" r="85%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <mask id="scanMask">
+      <rect width="1200" height="140" fill="white"/>
+    </mask>
+
+    <style>
+      .title { font: 900 40px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 0.6px; }
+      .sub   { font: 700 14px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 0.2px; }
+      .mono  { font: 700 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1200" height="140" rx="22" fill="url(#bg)"/>
+
+  <!-- Grid com parallax -->
+  <g>
+    <rect x="-60" y="0" width="1320" height="140" fill="url(#grid)">
+      <animate attributeName="x" values="-60;-120;-60" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Linhas “circuit” -->
+  <g stroke="#E9D5FF" stroke-opacity="0.12" stroke-width="2" fill="none">
+    <path d="M-40 118 C 220 80, 380 140, 620 96 S 980 70, 1260 108">
+      <animate attributeName="stroke-opacity" values="0.08;0.16;0.08" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-60 40 C 240 16, 360 66, 560 34 S 980 10, 1260 46">
+      <animate attributeName="stroke-opacity" values="0.06;0.14;0.06" dur="6.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- HUD corners -->
+  <g stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="2" fill="none">
+    <path d="M28 44 L28 24 L48 24"/>
+    <path d="M1172 44 L1172 24 L1152 24"/>
+    <path d="M28 96 L28 116 L48 116"/>
+    <path d="M1172 96 L1172 116 L1152 116"/>
+  </g>
+
+  <!-- Scanline -->
+  <g mask="url(#scanMask)">
+    <rect x="0" y="-30" width="1200" height="26" fill="#FFFFFF" opacity="0.10" filter="url(#glow)">
+      <animate attributeName="y" values="-30;160;-30" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <rect x="0" y="-30" width="1200" height="2" fill="#E879F9" opacity="0.55">
+      <animate attributeName="y" values="-30;160;-30" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Partículas -->
+  <g filter="url(#glow)">
+    <circle cx="180" cy="46" r="2.8" fill="#E879F9" opacity="0.75">
+      <animate attributeName="cy" values="46;40;46" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1010" cy="52" r="2.4" fill="#C4B5FD" opacity="0.8">
+      <animate attributeName="cx" values="1010;1030;1010" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1080" cy="104" r="3.0" fill="#A855F7" opacity="0.65">
+      <animate attributeName="cy" values="104;96;104" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Texto -->
+  <g filter="url(#glow)">
+    <text x="600" y="78" text-anchor="middle" fill="#FFFFFF" class="title">Projetos em Destaque</text>
+    <text x="600" y="104" text-anchor="middle" fill="#FFFFFF" opacity="0.90" class="sub">
+      UI • APIs • Componentização • Boas práticas
+    </text>
+  </g>
+
+  <!-- HUD text -->
+  <g class="mono" fill="#FFFFFF" opacity="0.55">
+    <text x="52" y="52">SECTION: FEATURED</text>
+    <text x="52" y="72">THEME: VIOLET_CYBER</text>
+
+    <text x="1148" y="52" text-anchor="end">STATUS: ONLINE</text>
+    <text x="1148" y="72" text-anchor="end">MODE: README_UI</text>
+  </g>
+
+  <!-- Vinheta -->
+  <rect width="1200" height="140" rx="22" fill="url(#vignette)"/>
+</svg>
