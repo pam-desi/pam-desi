@@ -73,17 +73,13 @@ const pamela = {
   <img src="https://skillicons.dev/icons?i=ts,js" />
 
   <h4>🧱 Backend & Arquitetura</h4>
-
-<p align="center">
   <img src="https://skillicons.dev/icons?i=nodejs,nestjs" />
-</p>
 
-<p align="center">
-  <img height="46" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" />
-  &nbsp;&nbsp;&nbsp;
-  <img height="46" src="https://cdn.simpleicons.org/insomnia/A855F7" />
-</p>
-
+  <p align="center">
+    <img height="46" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/swagger/swagger-original.svg" />
+    &nbsp;&nbsp;&nbsp;
+    <img height="46" src="https://cdn.simpleicons.org/insomnia/A855F7" />
+  </p>
 
   <h4>🎨 Frontend & Design</h4>
   <img src="https://skillicons.dev/icons?i=react,tailwind,vite,figma" />
@@ -112,10 +108,11 @@ const pamela = {
   />
 </p>
 
+<!-- STREAK AUTOMÁTICO (SVG GERADO PELO WORKFLOW) -->
 <p align="center">
   <img
-    src="https://streak-stats.demolab.com?user=pammyu&theme=github-dark&hide_border=true&v=2"
-    alt="GitHub Streak"
+    src="./assets/streak-cyber.svg"
+    alt="Cyber Streak"
   />
 </p>
 
