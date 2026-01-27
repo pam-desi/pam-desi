@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <!-- Fundo gradiente violeta -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="55%" stop-color="#7C3AED"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+      <animate attributeName="x1" values="0;0.15;0" dur="8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="1;0.85;1" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Glow -->
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Grid pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="1"/>
+    </pattern>
+
+    <!-- Vinheta -->
+    <radialGradient id="vignette" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+
+    <!-- Máscara para “cortar” a área do scan -->
+    <mask id="scanMask">
+      <rect width="1200" height="260" fill="white"/>
+    </mask>
+
+    <!-- Estilo texto -->
+    <style>
+      .name { font: 800 54px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 0.5px; }
+      .role { font: 700 22px Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; letter-spacing: 0.2px; }
+      .mono { font: 700 12px ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    </style>
+  </defs>
+
+  <!-- Fundo -->
+  <rect width="1200" height="260" rx="26" fill="url(#bg)"/>
+
+  <!-- Grid com “parallax” (animação lateral) -->
+  <g opacity="1">
+    <rect x="-80" y="0" width="1360" height="260" fill="url(#grid)">
+      <animate attributeName="x" values="-80;-140;-80" dur="10s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Linhas diagonais “circuit” -->
+  <g stroke="#E9D5FF" stroke-opacity="0.12" stroke-width="2" fill="none">
+    <path d="M-50 220 C 200 160, 340 260, 560 190 S 980 150, 1280 200">
+      <animate attributeName="stroke-opacity" values="0.08;0.16;0.08" dur="4.8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-80 70 C 220 30, 330 110, 540 60 S 980 20, 1260 80">
+      <animate attributeName="stroke-opacity" values="0.06;0.14;0.06" dur="6.2s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <!-- HUD corners -->
+  <g stroke="#FFFFFF" stroke-opacity="0.20" stroke-width="2" fill="none">
+    <path d="M40 56 L40 34 L62 34"/>
+    <path d="M1160 56 L1160 34 L1138 34"/>
+    <path d="M40 204 L40 226 L62 226"/>
+    <path d="M1160 204 L1160 226 L1138 226"/>
+  </g>
+
+  <!-- “Scanline” passando -->
+  <g mask="url(#scanMask)">
+    <rect x="0" y="-40" width="1200" height="36" fill="#FFFFFF" opacity="0.10" filter="url(#glow)">
+      <animate attributeName="y" values="-40;270;-40" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+    <!-- linha fina no centro do scan -->
+    <rect x="0" y="-40" width="1200" height="2" fill="#E879F9" opacity="0.55">
+      <animate attributeName="y" values="-40;270;-40" dur="3.8s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- Partículas “neon” -->
+  <g filter="url(#glow)">
+    <circle cx="220" cy="70" r="3" fill="#E879F9" opacity="0.75">
+      <animate attributeName="cy" values="70;60;70" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="980" cy="86" r="2.5" fill="#C4B5FD" opacity="0.8">
+      <animate attributeName="cx" values="980;1000;980" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1040" cy="178" r="3.2" fill="#A855F7" opacity="0.65">
+      <animate attributeName="cy" values="178;165;178" dur="3.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="170" cy="190" r="2.4" fill="#C026D3" opacity="0.55">
+      <animate attributeName="cx" values="170;190;170" dur="5.4s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Texto principal -->
+  <g filter="url(#glow)">
+    <text x="600" y="118" text-anchor="middle" fill="#FFFFFF" class="name">Pâmela Desirée</text>
+    <text x="600" y="166" text-anchor="middle" fill="#FFFFFF" opacity="0.92" class="role">
+      Desenvolvedora Front-End | React + TypeScript
+    </text>
+  </g>
+
+  <!-- Detalhes “terminal/HUD” -->
+  <g class="mono" fill="#FFFFFF" opacity="0.55">
+    <text x="58" y="78">STATUS: ONLINE</text>
+    <text x="58" y="98">THEME: VIOLET_CYBER</text>
+    <text x="58" y="118">UI: ACCESSIBLE • RESPONSIVE</text>
+
+    <text x="1040" y="78" text-anchor="end">BUILD: v1.0</text>
+    <text x="1040" y="98" text-anchor="end">MODE: FRONT-END</text>
+    <text x="1040" y="118" text-anchor="end">FOCUS: REACT/TS</text>
+  </g>
+
+  <!-- Vinheta -->
+  <rect width="1200" height="260" rx="26" fill="url(#vignette)"/>
+</svg>
