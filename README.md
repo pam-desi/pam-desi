@@ -86,7 +86,7 @@ const pamela = {
   <p>
     Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
   </p> 
-  <br/> 
+  
 
   <p><b>Stack:</b></p>
   <p>
