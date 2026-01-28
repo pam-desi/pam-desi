@@ -77,7 +77,7 @@ const pamela = {
   Alguns projetos que representam meu foco em interfaces bem construídas, consumo de APIs e organização de código.
 </p>
 
-<table width="100%" cellspacing="12" cellpadding="0">
+<table width="100%" cellspacing="12" cellpadding="0" align="center" style="margin: 0 auto;">
   <tr>
     <td width="33%" valign="top">
   <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=header" width="100%" />
