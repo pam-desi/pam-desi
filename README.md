@@ -85,7 +85,7 @@ const pamela = {
   <!-- TÍTULO CENTRALIZADO -->
   <div align="center">
     <h3>💊 VitaCare</h3>
-    
+
   <p>
     Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
   </p> 
@@ -108,7 +108,6 @@ const pamela = {
         </a>
   </div>
 
-  <br/> 
   <br/> 
   <br/> 
     <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
