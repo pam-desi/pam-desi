@@ -24,7 +24,7 @@
   <a href="https://www.linkedin.com/in/pameladosreis/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/pammyu" target="_blank" rel="noreferrer">
+  <a href="https://github.com/pam-desi" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" />
   </a>
   <a href="mailto:pammreiss@gmail.com" target="_blank" rel="noreferrer">
@@ -34,9 +34,9 @@
 
 <!-- CONTADORES -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=pammyu&label=Profile%20Views&color=7C3AED" />
-  <img src="https://img.shields.io/github/followers/pammyu?label=Followers&color=A855F7" />
-  <img src="https://img.shields.io/github/stars/pammyu?label=Stars&color=C026D3" />
+  <img src="https://komarev.com/ghpvc/?username=pam-desi&label=Profile%20Views&color=7C3AED" />
+  <img src="https://img.shields.io/github/followers/pam-desi?label=Followers&color=A855F7" />
+  <img src="https://img.shields.io/github/stars/pam-desi?label=Stars&color=C026D3" />
 </p>
 
 <hr/>
@@ -96,7 +96,7 @@ const pamela = {
     <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
   </p>
 
-  <a href="https://github.com/pammyu/projeto_final_bloco_03">
+  <a href="https://github.com/pam-desi/projeto_final_bloco_03">
     <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
   </a>
   <br/> 
@@ -121,7 +121,7 @@ const pamela = {
     <img src="https://img.shields.io/badge/MySQL-0B1220?style=for-the-badge&logo=mysql&logoColor=38BDF8"/>
   </p>
 
-  <a href="https://github.com/pammyu/blogpessoal_react">
+  <a href="https://github.com/pam-desi/blogpessoal_react">
     <img src="https://img.shields.io/badge/🔗%20Repositório-A855F7?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
   </a>
 
@@ -198,12 +198,12 @@ const pamela = {
 <p align="center">
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api?username=pammyu&show_icons=true&hide_border=true&theme=github_dark&icon_color=7C3AED"
+    src="https://github-readme-stats.vercel.app/api?username=pam-desi&show_icons=true&hide_border=true&theme=github_dark&icon_color=7C3AED"
     alt="GitHub Stats"
   />
   <img
     height="165"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=pammyu&layout=compact&hide_border=true&theme=github_dark"
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=pam-desi&layout=compact&hide_border=true&theme=github_dark"
     alt="Linguagens mais usadas"
   />
 </p>
@@ -214,7 +214,7 @@ const pamela = {
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=pammyu&bg_color=0B1220&color=C9D1D9&line=7C3AED&point=C026D3&area=true&hide_border=true"
+    src="https://github-readme-activity-graph.vercel.app/graph?username=pam-desi&bg_color=0B1220&color=C9D1D9&line=7C3AED&point=C026D3&area=true&hide_border=true"
     alt="Gráfico de atividade"
   />
 </p>
@@ -231,7 +231,7 @@ const pamela = {
   <a href="https://www.linkedin.com/in/pameladosreis/" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/pammyu" target="_blank" rel="noreferrer">
+  <a href="https://github.com/pam-desi" target="_blank" rel="noreferrer">
     <img src="https://img.shields.io/badge/GitHub-0B1220?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </p>
