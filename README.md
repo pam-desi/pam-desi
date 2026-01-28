@@ -80,35 +80,48 @@ const pamela = {
 <table width="100%" cellspacing="12" cellpadding="0" align="center" style="margin: 0 auto;">
   <tr>
     <td width="33%" valign="top">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=header" width="100%" />
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=header" width="100%" />
 
-  <h3>💊 VitaCare</h3>
+  <!-- TÍTULO CENTRALIZADO -->
+  <div align="center">
+    <h3>💊 VitaCare</h3>
+    
   <p>
     Front-End de farmácia digital consumindo backend real. Projeto focado em organização, CRUD, UX e integração com API.
   </p> 
-  
 
-  <p><b>Stack:</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
-    <img src="https://img.shields.io/badge/TypeScript-0B1220?style=for-the-badge&logo=typescript&logoColor=60A5FA"/>
-    <img src="https://img.shields.io/badge/Axios-0B1220?style=for-the-badge&logo=axios&logoColor=A855F7"/>
-    <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
-  </p>
 
-  <a href="https://github.com/pam-desi/projeto_final_bloco_03">
-    <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
-  </a>
+  <div align="center">
+    <p><b>Stack:</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
+        <img src="https://img.shields.io/badge/TypeScript-0B1220?style=for-the-badge&logo=typescript&logoColor=60A5FA"/>
+        <img src="https://img.shields.io/badge/Axios-0B1220?style=for-the-badge&logo=axios&logoColor=A855F7"/>
+        <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
+      </p>
+    </div>
+
+  <!-- BOTÃO CENTRALIZADO -->
+  <div align="center">
+    <a href="https://github.com/pam-desi/projeto_final_bloco_03">
+        <img src="https://img.shields.io/badge/🔗%20Repositório-7C3AED?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+        </a>
+  </div>
+
   <br/> 
   <br/> 
   <br/> 
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
-</td>
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=footer" width="100%" />
+  </td>
 
-<td width="33%" valign="top">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=header" width="100%" />
+  <td width="33%" valign="top">
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=header" width="100%" />
+</div>
 
+  <!-- TÍTULO CENTRALIZADO -->
+<div align="center">
   <h3>📝 Blog Pessoal</h3>
+
   <p>
     Projeto Full Stack com autenticação e CRUD completo. Me deu base forte de integração front + backend e organização em camadas.
   </p>
@@ -121,38 +134,52 @@ const pamela = {
     <img src="https://img.shields.io/badge/MySQL-0B1220?style=for-the-badge&logo=mysql&logoColor=38BDF8"/>
   </p>
 
+  <!-- BOTÃO CENTRALIZADO -->
+  <div align="center">
   <a href="https://github.com/pam-desi/blogpessoal_react">
-    <img src="https://img.shields.io/badge/🔗%20Repositório-A855F7?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
-  </a>
+  <img src="https://img.shields.io/badge/🔗%20Repositório-A855F7?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+   </a>
+  </div>
 
   <br/><br/>
   <img src="https://capsule-render.vercel.app/api?type=rect&color=7C3AED&height=7&section=footer" width="100%" />
-</td>
+  </td>
 
   <td width="33%" valign="top">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=header" width="100%" />
+      <img src="https://capsule-render.vercel.app/api?type=rect&color=C026D3&height=7&section=header" width="100%" />
 
-  <h3>✨ Talent Flow</h3>
+</div>
+
+
+  <!-- TÍTULO CENTRALIZADO -->
+  <div align="center">
+    <h3>✨ Talent Flow</h3>
+
   <p>
     Plataforma para gestão de talentos com UI moderna e experiência fluida. Meu foco foi front-end: layout, responsividade e componentes.
   </p>
 
   <p><b>Stack:</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
-    <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
-    <img src="https://img.shields.io/badge/UI%2FUX-0B1220?style=for-the-badge&logo=figma&logoColor=F472B6"/>
-  </p>
+    <p>
+      <img src="https://img.shields.io/badge/React-0B1220?style=for-the-badge&logo=react&logoColor=38BDF8"/>
+      <img src="https://img.shields.io/badge/TailwindCSS-0B1220?style=for-the-badge&logo=tailwindcss&logoColor=38BDF8"/>
+      <img src="https://img.shields.io/badge/UI%2FUX-0B1220?style=for-the-badge&logo=figma&logoColor=F472B6"/>
+    </p>
 
-  <a href="https://github.com/Grupo-02-Turma-JavaScript-10/Rh_frontEnd">
-    <img src="https://img.shields.io/badge/🔗%20Repositório-C026D3?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
-  </a>
+  <!-- BOTÃO CENTRALIZADO -->
+  <div align="center">
+      <a href="https://github.com/Grupo-02-Turma-JavaScript-10/Rh_frontEnd">
+        <img src="https://img.shields.io/badge/🔗%20Repositório-C026D3?style=for-the-badge&logo=github&logoColor=FFFFFF"/>
+      </a>
+  </div>
 
   <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=footer" width="100%" />
-</td>
+    <img src="https://capsule-render.vercel.app/api?type=rect&color=A855F7&height=7&section=footer" width="100%" />
+    </td>
+  </div>
   </tr>
 </table>
+
 
 <hr/>
 
